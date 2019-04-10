@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <link rel="stylesheet" type="text/css" href="breakout.css">
+    <link rel="icon" sizes="152x152" href="icons/breakout.png">
+    <link rel="apple-touch-icon" href="icons/breakout.png">
+    <link rel="shortcut-icon" href="icons/breakout.png" type="image/x-icon">
+    <title>Breakout</title>
+</head>
+<body>
+
+<main>
+    <div id="lives">no data</div>
+    <svg width="100%" height="100%" id="mainSvg">
+        <circle r="10" cx="210" cy="300" stroke="orange" id="ball"></circle>
+        <rect id="paddle1" x="250" y="0" width="200" height="15" fill="yellow" stroke-width="1" stroke="black"></rect>
+        <!--<rect id="paddle2" x="250" y="480" width="100" height="10" fill="yellow" stroke-width="1" stroke="black"></rect>-->
+        <g id="row1">
+
+        </g>
+        <g id="row2">
+
+        </g>
+        <g id="row3">
+
+        </g>
+        <g id="row4">
+
+        </g>
+    </svg>
+</main>
+<script type="text/javascript" src="BreakoutModel.js"></script>
+<script type="text/javascript" src="BreakoutView.js"></script>
+<script type="text/javascript" src="BreakoutController.js"></script>
+</body>
+</html>
