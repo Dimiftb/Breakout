@@ -1,2 +1,5 @@
 # Breakout
-Simple breakout game developed with CSS, JS, HTML for Mobile App Development
+Simple breakout game app developed for an assignment in Mobile Development.
+
+Front-end: HTML, CSS;
+Back-end: JavaScript;
